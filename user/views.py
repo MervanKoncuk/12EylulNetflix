@@ -100,6 +100,7 @@ def olustur(request):
     return render(request, 'user/olustur.html', context)
 
 
+#Hesap sayfasını görüntüleyen fonksiyon
 def hesap(request):
     user = request.user.hesap
     context = {
